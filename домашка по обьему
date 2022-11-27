@@ -1,0 +1,13 @@
+fun main(){
+    println("Расчет обьема параллепипеда")
+    println("Высота параллепипеда")
+    val side1=readln().toInt()
+    println("Ширина параллепипеда")
+    val side2=readln().toInt()
+    println("Длина параллепипеда")
+    val side3=readln().toInt()
+    val volume=side1*side2*side3
+    println(volume)
+    println("Результат: Обьeм расчитан. Молодец!!")
+
+}
